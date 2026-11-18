@@ -1,0 +1,15 @@
+{
+  "name": "saas-gestao-comercial-architecture",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Arquitetura de referência, modelagem SQL/Supabase com RLS e regras de negócio do Sistema SaaS de Gestão Comercial e Orçamentos.",
+  "author": "Daniel Santana Lima <Dan13setembro@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/quotes-calculation.spec.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
